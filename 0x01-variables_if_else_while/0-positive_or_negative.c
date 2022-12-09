@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * 
+ * Description: This is a program that utilizes if else statements to print 
+ * positive and negative random intergers
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
