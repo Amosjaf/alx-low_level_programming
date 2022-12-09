@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point 
- * Description: Utilizes if else statements to print positive and negative random intergers
+ * Description: Utilizes if else statements
  * Return: Always 0 (Success)
  */
 int main(void)
