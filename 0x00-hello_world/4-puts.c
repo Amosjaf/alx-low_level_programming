@@ -1,7 +1,12 @@
+/**
+ * This is a program that prints out a string using the puts
+ * function in c
+ */
+
 #include <stdio.h>
 
 /**
- *This is a program that utilizes puts in c
+ *This is the main function
  */
 
 int main(void)
