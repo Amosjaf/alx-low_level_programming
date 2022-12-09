@@ -1,10 +1,13 @@
 #include <stdio.h>
-/*This is a program that utilizes the puts inbuilt function*/
+/**
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-/**
- *This is the main function
- */
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
