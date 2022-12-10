@@ -18,7 +18,8 @@ int main(void)
 					continue;
 				else if (i > j || j > k || i > k)
 					continue;
-				else {
+				else 
+				{
 					putchar(i);
 					putchar(j);
 					putchar(k);
