@@ -14,8 +14,10 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				if (i == j || j == k || i == k) continue;
-				else if (i > j || j > k || i > k) continue;
+				if (i == j || j == k || i == k)
+					continue;
+				else if (i > j || j > k || i > k)
+					continue;
 				else {
 					putchar(i);
 					putchar(j);
