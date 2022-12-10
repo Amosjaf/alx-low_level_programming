@@ -8,14 +8,8 @@
  */
 int main(void)
 {
-	int ch = 97;
-	int i = 0;
-
-	while (i < 26) {
-		ch = ch + i;
+	for (int ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-		i++;
-	}
 	putchar('\n');
 	return (0);
 }
