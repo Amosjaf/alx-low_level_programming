@@ -1,7 +1,6 @@
 #include "main.h"
-/* Print alphabet function */
-
 /**
+ * Print alphabet function
  * print_alphabet function comment
  * Description: 'to print all letters of the alphabet using putchar
  */
