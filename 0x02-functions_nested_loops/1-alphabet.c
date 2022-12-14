@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * Short description of the program
+ */
+
+/**
  * print_alphabet function prints all letters of the alphabet using putchar
  * Return: Always 0 (Success)
  */
