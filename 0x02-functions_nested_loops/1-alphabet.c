@@ -1,13 +1,10 @@
 #include "main.h"
-/**
- * Print alphabet initial comment
- * Description: 'the program's description'
- * Return: Always 0 (Success)
- */
+/* Print alphabet function */
 
 /**
- * Print alphabet function to print all letters of the alphabet using putchar
- * Description: 'the program's description'
+ * Print alphabet function comment
+ * Description: 'to print all letters of the alphabet using putchar
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
