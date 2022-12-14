@@ -1,5 +1,7 @@
 #include "main.h"
-/* print_alphabet function */
+/** Print alphabet function
+ * Return: Always 0 (Success)
+ */
 
 /**
  * print_alphabet function comment
