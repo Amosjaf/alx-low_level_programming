@@ -3,6 +3,7 @@
 /**
  * _islower - checks for lower case characters
  * Description - C programming basics
+ * c - parameter for function
  * Return: Always 0 (Success)
  */
 int _islower(int c)
