@@ -6,7 +6,7 @@
  */
 int _islower(int c)
 {
-	int ch = 'a', i = 0;
+	int ch = 'a';
 
 	while (ch <= 'z')
 	{
@@ -23,4 +23,5 @@ int _islower(int c)
 		}
 	}
 	putchar('\n');
+	return (0);
 }
