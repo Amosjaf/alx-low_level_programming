@@ -5,7 +5,7 @@
  * c - integer parameter for function
  * Return: Always return 0 success
  */
-int _isalpha(int c)
+int _isalpha(int c) /* c - parameter of function) */
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
