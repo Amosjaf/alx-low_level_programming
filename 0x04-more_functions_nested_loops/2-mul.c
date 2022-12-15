@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _mul.c - function multiplies two integers
+* mul.c - function multiplies two integers
 * Description - uses the multiplication operator
 * Return - returns 0 for success
 */
