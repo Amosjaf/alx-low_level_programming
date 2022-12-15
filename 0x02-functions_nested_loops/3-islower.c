@@ -13,16 +13,16 @@ int _islower(int c)
 	{
 		if (ch == c)
 		{
-			putchar('1');
+			_putchar('1');
 			break;
 		}
 		else
 		{
 			ch++;
 			if (ch == 'z' && ch != c)
-				putchar('0');
+				_putchar('0');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
