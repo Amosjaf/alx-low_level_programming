@@ -6,7 +6,6 @@
 * Return - 0 for success
 */
 void print_most_numbers(void)
-/*int _putchar(char c);*/
 {
 	int i = '0';
 
