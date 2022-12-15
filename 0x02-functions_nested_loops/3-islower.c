@@ -20,8 +20,6 @@ int _islower(int c)
 		else
 		{
 			ch++;
-			if (ch == 'z' && ch != c)
-				_putchar('0');
 		}
 	}
 	_putchar('\n');
