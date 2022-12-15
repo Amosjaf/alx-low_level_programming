@@ -4,7 +4,7 @@
  * Description - Lower case or upper case alphabet checker
  * Return: Always return 0 success
  */
-int _isalpha.c(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
