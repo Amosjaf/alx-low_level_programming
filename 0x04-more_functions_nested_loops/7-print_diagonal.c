@@ -15,21 +15,14 @@ void print_diagonal(int n)
 	{
 		for (j = 0; j < i; j++)
 		{
-			putchar(' ');
+			_putchar(' ');
 		}
-		putchar('\\');
-		putchar('\n');
+		_putchar('\\');
+		_putchar('\n');
 	}
 	}
 	else {
-		putchar('\n');
+		_putchar('\n');
 	}
 }
-int main(void)
-{
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
-    return (0);
 }
