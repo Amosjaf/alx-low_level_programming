@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * 3-islower - checks for lower case characters
  * Description - C programming basics
