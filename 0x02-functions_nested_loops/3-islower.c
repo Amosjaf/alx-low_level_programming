@@ -5,6 +5,7 @@
  * Description - C programming basics
  * Return: Always 0 (Success)
  */
+int _putchar(char c);
 int _islower(int c)
 {
 	int ch = 'a';
