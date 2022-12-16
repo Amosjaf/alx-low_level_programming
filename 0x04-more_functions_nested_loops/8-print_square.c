@@ -15,21 +15,13 @@ void print_square(int size)
 		{
 			if (size > 0)
 			{
-			putchar('#');
+			_putchar('#');
 			}
 			else {
-			putchar('\n');
+			_putchar('\n');
 			break;
 			}
 	}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
-int main(void)
-{
-    print_square(2);
-    print_square(10);
-    print_square(0);
-    return (0);
-}
-
