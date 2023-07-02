@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
 
+int _putchar(char c);
 void _puts(char *str);
 
 /**
@@ -20,4 +22,9 @@ void _puts(char *str)
 		str++;
 	}
 	_putchar('\n');
+}
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
