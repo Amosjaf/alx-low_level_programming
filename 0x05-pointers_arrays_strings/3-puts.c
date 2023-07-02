@@ -23,8 +23,3 @@ void _puts(char *str)
 	}
 	_putchar('\n');
 }
-
-/*int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}*/
