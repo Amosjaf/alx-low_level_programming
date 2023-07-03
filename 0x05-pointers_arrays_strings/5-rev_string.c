@@ -28,8 +28,8 @@ void rev_string(char *s)
 	while (lead < s)
 	{
 		ch = *lead;
-		*lead = s;
-		*s = *ch;
+		*lead = *s;
+		*s = ch;
 		s--;
 		lead++;
 	}
