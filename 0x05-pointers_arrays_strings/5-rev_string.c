@@ -14,10 +14,9 @@ int _putchar(char c);
 void rev_string(char *s)
 {
 	char *lead;
-	char *ch;
+	char ch;
 	int count;
 
-	ch = NULL;
 	lead = s;
 	count = 0;
 	while (*s)
@@ -28,8 +27,8 @@ void rev_string(char *s)
 	s--;
 	while (lead < s)
 	{
-		*ch = *lead;
-		*lead = *s;
+		ch = *lead;
+		*lead = s;
 		*s = *ch;
 		s--;
 		lead++;
