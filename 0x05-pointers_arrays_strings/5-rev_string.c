@@ -27,8 +27,6 @@ void rev_string(char *s)
 	s--;
 	while (lead < s)
 	{
-		ch = NULL;
-
 		*ch = *lead;
 		*lead = *s;
 		*s = *ch;
