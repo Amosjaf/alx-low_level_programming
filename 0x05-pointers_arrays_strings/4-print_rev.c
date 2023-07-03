@@ -19,11 +19,26 @@ void print_rev(char *s)
 	firstStr = s;
 	while (*s != '\0')
 		s++;
+	s--;
 	while (s != (firstStr - 1))
 	{
 		_putchar(*s);
 		s--;
 	}
-	_putchar('\0');
 	_putchar('\n');
+	
+}
+
+int main(void)
+{
+    char *str;
+
+    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    print_rev(str);
+    return (0);
+}
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
