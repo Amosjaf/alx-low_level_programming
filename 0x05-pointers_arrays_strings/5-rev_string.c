@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <unistd.h>
+
+void rev_string(char *s);
+int _putchar(char c);
+
+/**
+ * rev_string - Function that reverses a string
+ * @s: string pointer parameter to be reversed
+ * Description: utilizes the swapping of characters from front to the back
+ * Return: void
+ */
+
+void rev_string(char *s)
+{
+	char *lead;
+	char *ch;
+	int i, count;
+
+	lead = s;
+	i, count = 0;
+	while (*s)
+	{
+		count++;
+		s++;
+	}
+	s--;
+	while (lead < s)
+	{
+		*ch = *lead;
+		*lead = *s;
+		*s = *ch;
+		s--;
+		lead++;
+	}
+}
