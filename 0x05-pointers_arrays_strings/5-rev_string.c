@@ -17,7 +17,7 @@ void rev_string(char *s)
 	int count;
 
 	lead = s;
-	i, count = 0;
+	count = 0;
 	while (*s)
 	{
 		count++;
