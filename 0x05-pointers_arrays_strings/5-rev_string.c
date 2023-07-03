@@ -17,7 +17,7 @@ void rev_string(char *s)
 	char *ch;
 	int count;
 
-	ch = lead;
+	ch = NULL;
 	lead = s;
 	count = 0;
 	while (*s)
