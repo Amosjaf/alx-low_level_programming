@@ -27,9 +27,10 @@ void puts_half(char *str)
 		count++;
 		end++;
 	}
+	end--;
 	mid = (count - 1) / 2;
 	middle = str + mid;
-	while (middle < end)
+	while (middle <= end)
 	{
 		_putchar(*middle);
 		middle++;
