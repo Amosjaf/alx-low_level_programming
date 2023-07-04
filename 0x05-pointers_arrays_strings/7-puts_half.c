@@ -28,7 +28,10 @@ void puts_half(char *str)
 		end++;
 	}
 	end--;
-	mid = (count) / 2;
+	if (count % 2 == 0)
+		mid = count / 2;
+	else
+		mid = (count - 1) / 2;
 	middle = str + mid;
 	while (middle <= end)
 	{
