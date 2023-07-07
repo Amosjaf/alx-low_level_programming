@@ -18,20 +18,15 @@ char *cap_string(char *s)
 
 	if (s[0] >= 'a' && s[0] <= 'z')
 		s[0] -= 32;
-	printf("%c\n", s[0]);
 	for (i = 1; s[i] != '\0'; i++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
+		if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == ',' || s[i] == ';' || s[i] == '.' || s[i] == '!' || s[i] == '?' || s[i] == '"' || s[i] == '(' || s[i] == ')' || s[i] == '{' || s[i] == '}')
 		{
-			if (s[i - 1] >= '0' && s[i - 1] <= '9')
-				continue;
-			if (s[i - 1] == '-')
-				continue;
-			if (s[i - 1] < 'A' || s[i - 1] > 'z')
-				s[i] -= 32;
+			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+			{
+				s[i + 1] -= 32;
+			}
 		}
-		else
-			continue;
 	}
 	return (s);
 }
