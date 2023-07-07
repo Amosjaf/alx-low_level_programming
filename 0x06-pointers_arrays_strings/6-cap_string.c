@@ -23,7 +23,9 @@ char *cap_string(char *s)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			if (s[i - 1] == '-' || s[i - 1] >= '0' && s[i - 1] <= '9')
+			if (s[i - 1] >= '0' && s[i - 1] <= '9')
+				continue;
+			if (s[i - 1] == '-')
 				continue;
 			if (s[i - 1] < 'A' || s[i - 1] > 'z')
 				s[i] -= 32;
