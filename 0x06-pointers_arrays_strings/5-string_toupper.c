@@ -5,7 +5,7 @@ char *string_toupper(char *);
 /**
  * string_toupper - pointer to a function that returns the uppercase
  * of a string
- * @: string parameter
+ * @s: string parameter
  *
  * Description: Function accepts a string as parameter and returns the same
  * string but in uppercase letters
