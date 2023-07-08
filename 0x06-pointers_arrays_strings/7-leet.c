@@ -10,6 +10,7 @@ char *leet(char *);
  * to specific letters contained in multidimentional array. If the
  * character matches those at column index 0 and 1 of the array, the
  * number at the corresponding index 2 replaces the character
+ * Return: string
  */
 char *leet(char *s)
 {
