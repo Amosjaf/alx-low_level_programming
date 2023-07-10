@@ -3,7 +3,7 @@
 char *rot13(char *);
 
 /**
- * rot13 - substitution cipher that interchangers letters
+ * rot13 - substitution cipher that interchanges letters
  * @s: Input string to be converted from main or other function
  *
  * Description: Takes input character and switches it with a character 13
@@ -25,11 +25,10 @@ char *rot13(char *s)
 			if (s[i] >= 'A' && s[i] <= 'M' || s[i] >= 'a' && s[i] <= 'm')
 			{
 				s[i] += 13;
+				check = 0;
+				break;
 			}
-			/*else
-			{
-				s[i] -= 13;
-			} */
+			s[i] -= 13;
 			check = 0;
 		}
 		i++;
