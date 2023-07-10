@@ -26,10 +26,10 @@ char *rot13(char *s)
 			{
 				s[i] += 13;
 			}
-			else
+			/*else
 			{
 				s[i] -= 13;
-			}
+			} */
 			check = 0;
 		}
 		i++;
