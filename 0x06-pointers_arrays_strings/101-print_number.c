@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void print_number(int n);
+int _putchar(char c);
 
 /**
  * print_number - prints to standard output interger using _putchar
