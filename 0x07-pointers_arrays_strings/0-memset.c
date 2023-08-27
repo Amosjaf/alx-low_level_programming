@@ -3,13 +3,12 @@
 
 char *_memset(char *s, char b, unsigned int n);
 /**
-* _memset - function that fills the first n bytes fo memory area
-* pointed to by s with a the constant byte b
-* @s - pointer to be filled
-* @b - fillvalue character
-* @n - Number of times the character fills the s
-* Description: Function works similar to  the built in memset function
-* Return: return s
+* _memset - Fills the first n bytes of memory pointed to by s
+* @param s: Pointer to the memory area to be filled
+* @param b: Fillvalue character
+* @param n: Number of bytes to fills
+* Description: Function works similar to the built in memset function
+* Return: Pointer to the memory area s
 */
 char *_memset(char *s, char b, unsigned int n)
 {
