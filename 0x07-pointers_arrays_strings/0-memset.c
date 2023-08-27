@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
+char *_memset(char *s, char b, unsigned int n);
 /**
 * _memset - function that fills the first n bytes fo memory area
 * pointed to by s with a the constant byte b
